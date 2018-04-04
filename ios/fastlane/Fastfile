@@ -42,11 +42,7 @@ xcodebuild(
       "CODE_SIGN_IDENTITY" => ""
     } 
 )
-mailgun(
-  to: “mail.com”,
-  success: true,
-  message: "This is the mail's content"
-  )
+
  end
 
 end
