@@ -54,6 +54,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
@@ -63,6 +64,16 @@
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
                BuildableName = "fastlanepocTests.xctest"
                BlueprintName = "fastlanepocTests"
+               ReferencedContainer = "container:fastlanepoc.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "64CC310A2074FC71009CA88A"
+               BuildableName = "fastlanepocUITests.xctest"
+               BlueprintName = "fastlanepocUITests"
                ReferencedContainer = "container:fastlanepoc.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -83,6 +94,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
